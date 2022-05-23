@@ -1,0 +1,26 @@
+{"manifest_version": 2,
+"name": "Smart AdBlock",
+ "version": "1.0",
+"description": "Block ads and stop unwanted tracking.",
+
+"permissions": [
+    "contextMenus",
+    "tabs",
+    "storage"
+],
+
+"background": {
+    "scripts": ["js/background.js"]
+},
+
+"browser_action": {
+    "default_icon": "icon.png"
+},
+
+"icons": {
+    "16": "img/icon.png",
+    "32": "img/icon.png",
+    "48": "img/icon.png",
+    "128":"img/icon.png"
+}
+}
