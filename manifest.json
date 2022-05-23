@@ -21,6 +21,7 @@
         "32": "/img/icon.png",
         "48": "/img/icon.png",
         "128":"/img/icon.png"
+        }
     },
 
     "icons": {
@@ -29,6 +30,6 @@
 	"48": "/img/icon.png",
 	"128":"/img/icon.png"
 	}
-    }
+    
 }
 
