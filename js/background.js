@@ -1,6 +1,7 @@
-let color = "#ff0000";
+const btn = document.getElementById('activate');
 
-chrome.runtime.onInstalled.addListener(() => {
-    chrome.storage.sync.set({color});
-    //console.log("Color is set to", `color: ${color}`);
-});
+btn.addEventListener('click', function onClick() {
+    btn.style.backgroundColor = '#000000';
+})
+
+console.log('Output')
