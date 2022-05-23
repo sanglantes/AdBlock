@@ -1,26 +1,34 @@
-{"manifest_version": 2,
-"name": "Smart AdBlock",
- "version": "1.0",
-"description": "Block ads and stop unwanted tracking.",
+{
+    {"manifest_version": 2,
+    "name": "Smart AdBlock",
+    "version": "1.0",
+     "description": "Block ads and stop unwanted tracking.",
+     "background": {
+	 "service_worker": "js/background.js"
+     },
 
-"permissions": [
-    "contextMenus",
-    "tabs",
-    "storage"
-],
+    "permissions": [
+	"contextMenus",
+	"tabs",
+	"storage"
+    ],
 
-"background": {
-    "scripts": ["js/background.js"]
-},
+    "action": {
+	"default_popup": "popup.html"
+    },
+    
+    "background": {
+	"scripts": ["js/background.js"]
+    },
 
-"browser_action": {
-    "default_icon": "img/icon.png"
-},
+    "browser_action": {
+	"default_icon": "img/icon.png"
+    },
 
-"icons": {
-    "16": "img/icon.png",
-    "32": "img/icon.png",
-    "48": "img/icon.png",
-    "128":"img/icon.png"
-}
+    "icons": {
+	"16": "img/icon.png",
+	"32": "img/icon.png",
+	"48": "img/icon.png",
+	"128":"img/icon.png"
+    }
 }
