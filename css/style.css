@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap';)
+
+* {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+h3 {
+    text-align: center;
+}
+
+.activate-button {
+    font-size: 20px;
+    white-space: nowrap;
+    border: solid darkred;
+    padding: 10px 100px;
+    text-align: center;
+    background-color: #eb4034;
+    color: white;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.activate-button:hover {
+    background-color: #d1392e;
+    display: block;
+    content: "";
+    top: 5px;
+    color: #eee;
+    transition: all 0.3s;
+}
+
+.activate-button:active {
+    transform: translateY(1px);
+    transition: 0s;
+}
