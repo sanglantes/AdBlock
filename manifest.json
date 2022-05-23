@@ -4,7 +4,7 @@
     "version": "1.0",
     "description": "Block ads and stop unwanted tracking.",
     "background": {
-	"service_worker": "js/background.js"
+	"service_worker": "/js/background.js"
      },
 
     "permissions": [
@@ -15,13 +15,20 @@
     ],
 
     "action": {
-	"default_popup": "popup.html"
+	"default_popup": "/html/popup.html",
+    	"default_icon": {
+        "16": "/img/icon.png",
+        "32": "/img/icon.png",
+        "48": "/img/icon.png",
+        "128":"/img/icon.png"
     },
 
     "icons": {
-	"16": "img/icon.png",
-	"32": "img/icon.png",
-	"48": "img/icon.png",
-	"128":"img/icon.png"
+	"16": "/img/icon.png",
+	"32": "/img/icon.png",
+	"48": "/img/icon.png",
+	"128":"/img/icon.png"
+	}
     }
 }
+
