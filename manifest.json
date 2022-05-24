@@ -9,11 +9,14 @@
 
     "permissions": [
 	"webRequest",
-	"*://*.*.*",
 	"contextMenus",
 	"tabs",
 	"storage"
     ],
+
+    "host_permissions": [
+	"https://*.google.com"
+	],
 
     "action": {
 	"default_popup": "html/popup.html",

@@ -11,7 +11,7 @@ h3 {
 .activate-button {
     font-size: 20px;
     white-space: nowrap;
-    border: solid darkred;
+    border: none;
     padding: 10px 100px;
     text-align: center;
     background-color: #eb4034;
@@ -28,10 +28,22 @@ h3 {
     content: "";
     top: 5px;
     color: #eee;
-    transition: all 0.3s;
+    transition: all 0.2s;
 }
 
 .activate-button:active {
     transform: translateY(1px);
     transition: 0s;
+    background-color: darkred;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.track-counter {
+    font-size: 12px;
+    text-align: center;
 }
